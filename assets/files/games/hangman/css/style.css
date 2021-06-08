@@ -1,0 +1,221 @@
+/* Variabes */
+/* Mixin's */
+body {
+
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  height: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-image: url(../images/ps-symbols.gif);
+  font-size: 18px;
+}
+
+.wrappper {
+  width: 100%;
+  margin: 0 auto;
+  font-family: cursive;
+}
+.wrappper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+canvas {
+  color: #fff;
+  border: black dashed 2px;
+  padding: 15px 15px 20px 15px;
+}
+
+h1, h2, h3 {
+  font-family: cursive;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+
+p {
+  font-size: 1.4em;
+}
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 900px;
+}
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 35px;
+  height: 30px;
+
+  background: #fff;
+  color: black;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 3px;
+  -khtml-border-radius: 5px;
+  border: solid 1px #fff;
+}
+#alphabet li:hover {
+  background: green;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+.active:hover {
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#mylives {
+  font-size: 1.2em;
+  text-align: center;
+  display: block;
+}
+
+.btn-1 {
+  padding: 15px 50px 15px 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px #fff;
+}
+
+.btn-1:hover {
+  padding: 17px 51px 17px 51px;
+  margin-top: 30px;
+  border-radius: 7px;
+  background-color: white;
+  font-weight: bolder;
+  font-size: 22px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px black;
+  color: black;
+}
+.back {
+  position:absolute;
+  left: 5%;
+  z-index: 1;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  top: 5%;
+  font-family: cursive;
+}
+.font-size {
+  font-size: 18px;
+}
+.credits {
+  position: absolute;
+  right: 5%;
+  z-index: 1;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  top: 5%;
+  font-family: cursive;
+}
+.back:hover {
+  position:absolute;
+  left: 5%;
+  z-index: 1;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+.credits:hover {
+  position: absolute;
+  right: 5%;
+  z-index: 1;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+}
+@media (max-width: 767px) {
+  #alphabet {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 480px) {
+  #alphabet {
+    padding: 0 0 0 25px;
+  }
+}
+.container {
+  background-color: rgb(229,225,235); opacity: 0.9;
+  padding-left: 0px;
+}
+.head {
+  color:white;
+}
+#catagoryName {
+  font-size: 18px;
+}
+#hint {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+}
+#reset {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+window.onload = () => {
+   let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+   bannerNode.parentNode.removeChild(bannerNode);
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="sweetalert2.all.min.js"></script>
+<!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+<!-- Detect Mobile Browser -->
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "confirm.html";
+}
+//-->
+</script>
+<!-- End Of Detect Mobile Browser -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title class="animated pulse infinite">iMidnight</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="./assets/logo.png" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="./css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Popup -->
+  <link rel="stylesheet" href="./popup.css">
+
+<style>
+body {
+ background-image: url("https://imidnight.ml/assets/BG.png");
+ background-color: #cccccc;
+}    
+</style>
+<script>
+$(window).load(function () {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+    });
+    $('.hover_bkgr_fricc').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
+</script>
+</head>
+<body>
+
+  <!-- Start your project here-->
+    
+<!-- Navigation Bar -->
+    
+    <div class="imidnight-nav" style="padding-top: 10px; padding-left: 10px">
+        <nav>
+        <img src="./assets/logo.png" width="80" height="80">
+        <a href="https://imidnight.ml/fm" class="btn btn-info">File Manager <i class="fas fa-file ml-2"></i></a>
+        <a href="https://mail.yandex.com/?uid=1130000043921319#inbox" class="btn btn-info">Email <i class="fas fa-paperclip ml-2"></i></a>
+        <a href="https://discord.io/GlitzMC" class="btn btn-info">Discord <i class="fas fa-plane ml-2"></i></a>
+        <a href="https://imidnight.ml/chat.html" class="btn btn-info">Chat <i class="far fa-comment ml-2"></i></a>
+        </nav>
+    </div>
+
+
+<!-- Main Page -->
+
+  <div class="d-flex align-items-center" style="height:100vh">
+    <div class="container text-center">
+      <h1 class="animated fadeIn mb-3">Welcome to the official <b>iMidnight</b> site!</h1>
+        <hr>
+        <h5 class="animated fadeIn">Welcome to the official <strong>iMidnight</strong> site. There are games listed on the bottom of this text, If you experience any problems email me at official@imidnight.ga. Thanks for using the iMidnight website! <br> P.S TURN OFF AUDIO BEFORE CLICKING ON ANY GAMES, MOST OF THEM HAVE AUDIO!</h5>
+        <a href="https://imidnight.cf/files/minecraft/singleplayer.html" class="btn btn-primary">Minecraft<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/tic-tac-toe/index.php" class="btn btn-info">Tic-Tac-Toe<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/pacman/index.html" class="btn btn-primary">Pacman<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/tetris/index.html" class="btn btn-info">Tetris <i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/space_invaders/index.html" class="btn btn-info">Space Invaders<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/breakout/index.html" class="btn btn-info">Breakout<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/monkey_rally/index.html" class="btn btn-primary">Monkey Rally<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/mc_C/index.html" class="btn btn-info">Minecraft Classic<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/word_search" class="btn btn-primary">Word Search Puzzle<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/hangman/index.html" class="btn btn-info">Hangman<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/ping_pong" class="btn btn-primary">Ping Pong<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/snake/index.html" class="btn btn-info">Snake<i class="fas  ml-2"></i></a>
+        <a href="https://imidnight.cf/files/hexgl/index.html" class="btn btn-primary">HexGL<i class="fas  ml-2"></i></a>
+
+    </div>
+  </div>
+  <button class="btn btn-primary trigger_popup_fricc" onclick="Swal.fire({title: 'Good job dude!', text: 'Just kidding you shmick!', icon: 'success', confirmButtonText: 'Cool', showClass: {popup: 'animated fadeInDown'}, hideClass: {popup: 'animated fadeOutDown'}})" style="text-align: right;">Info!</button>
+
+<script>
+
+</script>
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿<!-- Készítette: Szabó Gergely (Gerviba) | GNU GENERAL PUBLIC LICENSE 3 | https://github.com/Gerviba/Tetris -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hu-HU">
+    <head>
+		<link rel="icon" href="https://imidnight.ga/tetris/favicon.png">
+        <title>Tetris</title>
+        <link rel="shortcut icon" type="image/png" href="0.png" id="favicon">
+        <link rel="stylesheet" type="text/css" href="normal.css">
+        <script>
+            var height = 14;
+            var width = 10;
+            var defaultSpeed = 400;
+        </script>
+        <script src="tetris_offline.js"></script>
+    </head>
+    <body onload="init()">
+        <h1>iMidnight's<br />Awesome Tetris</h1>
+        <div class="content">
+            <!-- 1:0px 2:32px 3:64px 4:96px 5:128px 6:160px 7:192px 8:224px 9:256px 10:288px -->
+            <div class="area" id="root"></div> 
+            <!-- <div class="entry c%COLOR%" id="uuid_%UUID%"></div> -->
+            <div class="opts">
+                <h1 id="gameover">Game Over!</h1>
+                <h2 id="scoreboard">Point: 0</h2>
+                <span>Move: A, D<br />Rotate: Q, E<br />Start/Restart: Space, R<br />Speed up: S</span>
+            </div>
+        </div>
+        <div class="dialog" id="dialog">
+            <h3>New Record!</h3><h4>Enter your name:</h4>
+            <form method="get" onsubmit="sendRecord(); return false;">
+                <input type="text" id="tetris-username" name="tetris_username" maxlength="16" />
+            </form>
+        </div>
+        <div class="toplist" id="toplist">
+            <h3>Leaderboard</h3>
+            <table border="0" cellspacing="0" cellpadding="0" id="table">
+            </table>
+            
+            <h4 class="blink">Space, R = Restart</h4>
+            <h4>F = Leaderboard</h4>
+        </div>
+        
+    </body>
+</html>

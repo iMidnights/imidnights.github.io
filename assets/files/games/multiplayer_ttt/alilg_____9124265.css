@@ -1,0 +1,78 @@
+*{
+	padding:0px;
+	margin:0px;
+	border:0px;
+	font-size:0px;
+}
+body{
+	background-color:#a19c94;
+}
+#alilg___GRub{
+	font-size:9pt;
+}
+
+.uc1 div{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:8pt;
+	color:#FFF;
+}
+.uc1 div a{
+	font-size:8pt;
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+.uc1 div a:hover{
+	text-decoration:underline;
+}
+
+#ldng{
+	display:none;
+}
+#ldng div{
+	font-size:8pt;
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+}
+
+#ldng2{
+	display:none;
+}
+#ldng2 div{
+	font-size:8pt;
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	line-height:20px;
+}
+#ldng2 div a{
+	font-size:8pt;
+	color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+#ldng2 div a:hover{
+	text-decoration:underline;
+}
+input{
+	color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:8pt;
+	font-weight:bold;
+}
+.topt span{
+	font-family:Tahoma, Geneva, sans-serif;font-size:8pt;font-weight:bold;
+}
+
+#xblk{
+	width:299px;height:52px;padding:0px;background-color:#FFF;overflow:scroll;overflow-x:hidden
+}
+#xblk div{
+	font-size:8pt;font-weight:bold;color:#000;font-family:Tahoma
+}
+#xblk div span{
+	font-size:8pt;font-weight:bold;font-family:Tahoma
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fullscreen API on iframe</title>
+  <link rel="stylesheet" href="./assets/css/hi.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163704754-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163704754-1');
+</script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="container">
+  <iframe src="https://codepen.io/kanaparty/full/eJYXeZ/"></iframe>
+  <div>
+    <button class="button">Click me to fullscreen the iframe</button>
+  </div>
+  <div class="info">You can check keydown event listener when the browser are in fullscreen and press F11 and ESC by console log on developer tools</div>
+  <div class="error"></div>
+</div>
+<!-- partial -->
+  <script src="./assets/js/fullscreens.js"></script>
+
+</body>
+</html>
