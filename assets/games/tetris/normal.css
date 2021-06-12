@@ -1,0 +1,202 @@
+/** Készítette: Szabó Gergely (Gerviba) | GNU GENERAL PUBLIC LICENSE 3 | https://github.com/Gerviba/Tetris */
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(PressStart2P.ttf);
+}
+
+::-moz-selection {
+    background: rgba(0, 0, 0, 0);
+}
+
+::selection {
+    background: rgba(0, 0, 0, 0);
+}
+
+body {
+    width: 98%;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+h1 {
+    display: block;
+    margin: 80px auto 30px auto;
+    text-align: center;
+    font-weight: normal;
+    color: #43c04f;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    color: #e1e14d;
+}
+
+span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #b9b69c;
+}
+
+div.content {
+    margin: 0 auto 20px auto;
+    width: 400px;
+}
+
+div.area {
+    border: 2px solid #555555;
+    margin: 0 auto 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    height: 448px;
+    
+    /* Átmenet a p1(1, 0.015), p2(0.6, 1.025) négyzetes bézier görbe alapján  */
+    -webkit-transition: border 10ms cubic-bezier(1.000, 0.015, 0.600, 1.025);
+    -moz-transition: border 10ms cubic-bezier(1.000, 0.015, 0.600, 1.025); 
+    -o-transition: border 10ms cubic-bezier(1.000, 0.015, 0.600, 1.025); 
+    transition: border 10ms cubic-bezier(1.000, 0.015, 0.600, 1.025);
+}
+
+div.opts {
+    width: 320px;
+    margin: 20px auto 0 auto;
+}
+
+/* Játék vége villogás */
+@keyframes gameover {
+    0% { color: #cdcd46; }
+    49% { color: #cdcd46; }
+    50% { color: #e1e14d; }
+    100% { color: #e1e14d; }
+}
+
+div.opts h1 {
+    color: #cdcd46;
+    margin-top: 32px;
+    animation-name: gameover;
+    animation-duration: 0.15s;
+    animation-iteration-count: infinite;
+    display: none;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+div.entry {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+div.c1 { background-color: #a44c43; } /* Piros */
+div.c2 { background-color: #3a84c5; } /* Kék */
+div.c3 { background-color: #a5ca61; } /* Zöld */
+div.c4 { background-color: #ffe773; } /* Sárga */
+div.c5 { background-color: #6d4178; } /* Lila */
+div.c6 { background-color: #8bd8d4; } /* Cián */
+
+/* Háttér négyzet */
+div.background { 
+    background-color: #a8a9aa; 
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+/* Név bekérõ doboz */
+div.dialog {
+    position: absolute;
+    top: 300px;
+    height: 120px;
+    width: 400px;
+    left: 50%;
+    margin-left: -208px;
+    background-color: #212121;
+    color: #e1e14d;
+    border: 8px outset #cdcd46;
+    padding-bottom: 12px;
+    display: none;
+}
+
+div.toplist {
+    position: absolute;
+    top: 170px;
+    height: 432px;
+    width: 400px;
+    left: 50%;
+    margin-left: -208px;
+    background-color: #212121;
+    color: #e1e14d;
+    border: 8px outset #cdcd46;
+    padding-bottom: 12px;
+    display: none;
+}
+
+div.toplist h3 {
+    margin-top: 26px;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+div.dialog input {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    background-color: #000000;
+    border: 0;
+    border-bottom: 2px solid #cdcd46;
+    margin: 0 auto;
+    padding: 8px;
+    outline: 0;
+    display: block;
+    width: 260px;
+    color: #b9b69c;
+    text-align: center;
+}
+
+@keyframes restart {
+    0% { color: #FFFFFF; }
+    49% { color: #FFFFFF; }
+    50% { color: #e1e14d; }
+    100% { color: #e1e14d; }
+}
+
+h4.blink {
+    margin-top: 30px;
+    animation-name: restart;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+table {
+    width: 100%;
+    font-size: 12px;
+    padding-right: 16px;
+}
+
+table tr td {
+    padding: 8px;
+    color: #b9b69c;
+}
+
+table tr td:first-of-type {
+    width: 40px;
+}
+
+table tr td:first-of-type, table tr td:last-of-type {
+    text-align: right;
+    color: #cdcd46;
+}
