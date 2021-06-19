@@ -1,0 +1,91 @@
+hr {
+  color: inherit;
+  background-color: currentcolor;
+  border-color: initial;
+}
+
+hr.star-light, hr.star-dark {
+  border-color: initial;
+}
+
+hr.star-dark {
+  border-color: rgb(77, 109, 141);
+}
+
+hr.star-dark::after {
+  color: rgb(174, 194, 211);
+  background-color: rgb(24, 26, 27);
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+

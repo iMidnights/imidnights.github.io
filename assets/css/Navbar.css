@@ -1,0 +1,198 @@
+html, body, input, textarea, select, button {
+  background-color: #181a1b;
+}
+
+html, body, input, textarea, select, button {
+  border-color: #736b5e;
+  color: #e8e6e3;
+}
+
+a {
+  color: #3391ff;
+}
+
+a {
+  color: rgb(78, 232, 202);
+  text-decoration-color: initial;
+}
+
+a:hover {
+  color: rgb(105, 236, 211);
+}
+
+button:focus:not(.focus-visible) {
+  outline-color: initial;
+}
+
+button:focus:not(:focus-visible) {
+  outline-color: initial;
+}
+
+.nav-link {
+  color: rgb(78, 232, 202);
+  text-decoration-color: initial;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: rgb(105, 236, 211);
+}
+
+.navbar-brand {
+  text-decoration-color: initial;
+}
+
+.navbar-nav {
+  list-style-image: initial;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-toggler:hover {
+  text-decoration-color: initial;
+}
+
+.navbar-toggler:focus {
+  text-decoration-color: initial;
+  outline-color: initial;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(232, 230, 227, 0.9);
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: rgba(232, 230, 227, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(232, 230, 227, 0.55);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(232, 230, 227, 0.7);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(232, 230, 227, 0.55);
+  border-color: rgba(140, 130, 115, 0.1);
+}
+
+.text-white {
+  color: rgb(232, 230, 227) !important;
+}
+
+.bg-primary {
+  background-color: rgb(19, 150, 125) !important;
+}
+
+.bg-secondary {
+  background-color: rgb(35, 50, 64) !important;
+}
+
+#mainNav .navbar-brand {
+  color: rgb(232, 230, 227);
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: rgb(232, 230, 227);
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: rgb(78, 232, 202);
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: rgb(232, 230, 227);
+}
+
+a {
+  color: rgb(78, 232, 202);
+}
+
+a:focus, a:hover, a:active {
+  color: rgb(92, 234, 206);
+}
+
+.bg-primary {
+  background-color: rgb(19, 150, 125) !important;
+}
+
+.bg-secondary {
+  background-color: rgb(35, 50, 64) !important;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
