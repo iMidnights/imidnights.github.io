@@ -1,0 +1,24 @@
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #00cfcf 0%, #ff00e6 100%);
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, #189fb1 0%, #34d3d3 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-muted {
+  color: #e3e9ee !important;
+}
+
