@@ -49,3 +49,7 @@ code{
     background-color: #1d1d1e;
     border-color: #313435 #313435 #313435;
 }
+
+.page-titles {
+    background: rgba(0, 0, 0, 0) !important;
+}
