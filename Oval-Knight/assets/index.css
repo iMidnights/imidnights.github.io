@@ -37,7 +37,7 @@ iframe {
   margin: 0 auto;
   width: 1255px;
   padding: 10px;
-  background-color: var(--background-gray);
+  background-color: var(--background-secondary);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
