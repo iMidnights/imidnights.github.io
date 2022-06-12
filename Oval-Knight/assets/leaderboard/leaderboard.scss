@@ -45,7 +45,7 @@ body {
             .panel-content {
                 display: flex;
                 flex-direction: column;
-                background-color: rgb(32, 34, 36);
+                background-color: #FFF;
                 border-radius: 1rem;
                 width: 100%;
                 margin-top: 10px;
@@ -70,8 +70,34 @@ body {
                     width: 50px;
                     border-radius: .5rem;
                     text-align: center;
-                    background-color: #3B4144;
+                    background-color: #424243;
                     margin-left: 10px;
+                }
+
+                .spacer {
+                    background: black;
+                    width: 3px;
+                    margin: 11px 0;
+                    margin-left: 7px;
+                }
+
+                .end {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: auto;
+                    margin-right: 10px;
+                    align-self: center;
+                    height: 100%;
+                    height: 50px;
+                    width: 80px;
+                    border-radius: .5rem;
+                    text-align: center;
+                    background-color: #424243;
+                }
+
+                .kills {
+                    width: 125px !important;
                 }
             }
         }
@@ -85,7 +111,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     border-radius: 0 0 10px 10px;
-    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
 
     .navbar-logo {
         margin-left: 5px;
@@ -164,37 +190,4 @@ a:hover {
 
 ::placeholder {
     color: rgb(232, 230, 227);
-}
-
-div[role="progressbars"] {
-    margin-left: auto;
-    align-self: center;
-    margin-right: 10px;
-    --size: 12rem;
-    --fg: #958c80;
-    --bg: #232627;
-    width: 50px;
-    height: 50px;
-    align-content: center;
-    font-size: .6rem;
-    text-align: center;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    background: radial-gradient(closest-side, #1b1e1f 80%, transparent 0 101%), conic-gradient(#ec1c24 calc(var(--value) * 0.5%), #526cff calc(var(--value) * 1%), var(--bg) 0);
-    font-family: Helvetica, Arial, sans-serif;
-    color: var(--fg);
-}
-
-div[role="progressbars"]::after {
-    counter-reset: percentage var(--level);
-    content: counter(percentage);
-    white-space: pre-wrap;
-}
-
-div[role="progressbars"]::before {
-    content: "Level";
-    color: #9b9285;
-    font-weight: 600;
-    white-space: pre-wrap;
 }

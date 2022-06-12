@@ -16,17 +16,20 @@ function LoadData() {
         var object = rawJson['L'][i];
 
         var name = object['name'];
-        var kills = object['e'];
+        var lvl = object['lvl'];
 
-        inner += `<div class="panel-content" id="item10">
-        <div class="item-card d-flex">
-          <div class="cross">
-            <h1>${i + 1}</h1>
-          </div>
-            <p style="padding-right: 0; width: 60%;">${name}</p>
-            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:40; --level: 10"></div>
-        </div>
-      </div>`
+        inner += `<div class="panel-content">
+              <div class="item-card d-flex">
+              <div class="cross">
+                <h1>${i+1}</h1>
+              </div>
+              <div class="spacer"></div>
+              <p>${name}</p>
+              <div class="end">
+                <h1>${lvl}</h1>
+              </div>
+            </div>
+          </div>`
       }
 
       document.getElementById("top-10").innerHTML = inner;
@@ -51,15 +54,18 @@ function LoadEKills() {
         var name = object['name'];
         var kills = object['e'];
 
-        inner += `<div class="panel-content" id="item10">
+        inner += `<div class="panel-content">
         <div class="item-card d-flex">
-          <div class="cross">
-            <h1>${i + 1}</h1>
-          </div>
-            <p style="padding-right: 0; width: 60%;">${name}</p>
-            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:40; --level: 10"></div>
+        <div class="cross">
+          <h1>${i+1}</h1>
         </div>
-      </div>`
+        <div class="spacer"></div>
+        <p>${name}</p>
+        <div class="end kills">
+          <h1>${kills}</h1>
+        </div>
+      </div>
+    </div>`
       }
 
       document.getElementById("enemy-kills").innerHTML = inner;
