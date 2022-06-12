@@ -22,13 +22,18 @@ iframe {
     border: 2px solid rgb(0, 0, 0);
 }
 
+.d-flex {
+    display: flex;
+}
+
 #unityContainer {
     width: 100%;
     height: 100%;
 }
 
 .navbar {
-    margin: 0 30px;
+    margin: 0 auto;
+    width: 1275px;
     padding: 10px;
     background-color: var(--background-gray);
     display: -webkit-box;
@@ -89,6 +94,7 @@ iframe {
     .fullscreen {
         display: flex;
         align-self: center;
+
         button {
             border: none;
             background: none;
