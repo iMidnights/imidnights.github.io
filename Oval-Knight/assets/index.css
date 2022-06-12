@@ -80,7 +80,7 @@ iframe {
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
   height: 3px;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   background-color: var(--color-blue);
   -webkit-transform-origin: bottom right;

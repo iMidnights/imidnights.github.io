@@ -1,3 +1,12 @@
+:root {
+  --color-red: #ed161f;
+  --color-blue: #516cff;
+  --color-primary: #00bcd4;
+  --color-secondary: #fafafa;
+  --color-tertiary: #fafafa;
+  --background-gray: #132130;
+}
+
 body {
   margin: 0;
   font-family: 'Lexend Deca', sans-serif;
@@ -79,6 +88,77 @@ body {
   margin-left: 10px;
 }
 
+.navbar {
+  margin: 0 30px;
+  padding: 10px;
+  background-color: var(--background-gray);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  border-radius: 0 0 10px 10px;
+  -webkit-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+          box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.navbar .navbar-logo {
+  margin-left: 5px;
+}
+
+.navbar .navbar-logo img {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: var(--color-blue);
+  margin-left: 15px;
+  display: inline-block;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.navbar .links a:nth-child(1) {
+  margin-left: 0 !important;
+}
+
+.navbar .links a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 3px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-blue);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.navbar .links a:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
 h1 {
   text-align: center;
   font-size: 30px;
@@ -156,4 +236,3 @@ div[role="progressbars"]::before {
   font-weight: 600;
   white-space: pre-wrap;
 }
-/*# sourceMappingURL=leaderboard.css.map */
