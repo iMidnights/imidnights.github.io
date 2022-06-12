@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <!-- saved from url=(0024)https://oval-knight.com/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <meta name="viewport" content="width=device-width">
   <title>Official!! fr! Webiste! fr!</title>
-  <link rel="icon" type="image/x-icon" href="https://oval-knight.com/images/icon.ico">
+  <link rel="icon" type="image/x-icon" href="./assets/images/icon.ico">
   <link href="./assets/index.css" rel="stylesheet" type="text/css">
-  
-  <meta name="description" content="Oval Knight is a free to play (multiplayer) RPG.">  
-  <meta name="keywords" content="game, rpg, items, monsters">
 
+  <meta name="description" content="Oval Knight is a free to play (multiplayer) RPG.">
+  <meta name="keywords" content="game, rpg, items, monsters">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <div class="navbar">
+    <div class="navbar-content">
+      <div class="navbar-logo">
+        <a href="/">
+          <img src="./assets/images/icon.png" alt="Oval Knight">
+        </a>
+      </div>
+    </div>
+    <div class="links">
+      <a href="/">Home</a>
+      <a target="_blank" href="/leaderboard/">Leaderboard</a>
+      <a target="_blank" href="https://discord.gg/meYcCKXeMj">Discord</a>
+      <a target="_blank" href="https://www.facebook.com/OvalKnightOfficial">Facebook</a>
+      <a target="_blank" href="/help">Help</a>
+    </div>
+    <div class="fullscreen">
+      <button onclick="fscreen(); return false"><img src="./assets/images/fullscreen.svg" alt=""></button>
+    </div>
+  </div>
   <center>
-    <div class="border"><iframe id="embededGame" src="http://oval-knight.com/game/index.html" height="775px" width="1275px" style="border:none;" class="shadow" id="gameBox"  frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe></div>
+    <div class="border"><iframe id="embededGame" src="http://oval-knsight.com/game/index.html" height="775px"
+        width="1275px" style="border:none;" class="shadow" id="gameBox" frameborder="0" allowfullscreen="true"
+        webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true"
+        msallowfullscreen="true"></iframe></div>
   </center>
 
   <center>
-    <button onclick="goFullscreen('embededGame'); return false">Fullscreen</button>
     <br>
-    <a href="https://oval-knight.com/leaderboard.html">Leaderboards</a>
-    <div class="links">
-      <h2>
-        Links
-      </h2>
-      <a href="https://www.facebook.com/OvalKnightOfficial">Facebook</a>
-      <br>
-      <a href="https://discord.gg/meYcCKXeMj">Discord Server</a>
-    </div>
 
     <div class="help">
       <h2>
         Help
       </h2>
-      <h3>Lag?</h3><h4>Use CTRL + - to make your website smaller. Zoom out until your FPS goes up.</h4>
+      <h3>Lag?</h3>
+      <h4>Use CTRL + - to make your website smaller. Zoom out until your FPS goes up.</h4>
       <br>
       <h3>Unanswered Question?</h3>
       <h5>Join our discord server.</h5>
     </div>
   </center>
-  
+
   <script src="./assets/script.js"></script>
-  <script>
-    function goFullscreen(id) {
-        var element = document.getElementById(id);
 
-        const vanas = document.getElementById('embededGame');
+</body>
 
-        element.style.width = '100vw';
-        element.style.height = '100vh';
-
-        if (element.mozRequestFullScreen) {
-          element.mozRequestFullScreen();
-        } else if (element.webkitRequestFullScreen) {
-          element.webkitRequestFullScreen();
-        }
-    }
-    </script>
-
-</body></html>
+</html>

@@ -1,8 +1,20 @@
-html, body {
+:root {
+    --color-red: #ed161f;
+    --color-blue: #516cff;
+    --color-primary: #00bcd4;
+    --color-secondary: #fafafa;
+    --color-tertiary: #fafafa;
+    --background-gray: #132130;
+}
+
+html,
+body {
+    margin: 0;
     background-image: url('https://oval-knight.com/images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 iframe {
@@ -10,9 +22,80 @@ iframe {
     border: 2px solid rgb(0, 0, 0);
 }
 
-#unity-container.unity-desktop { width: 100%; height: 100% }
-#unity-canvas { background: #231F20; width: 100%; height: 100% }
 #unityContainer {
     width: 100%;
     height: 100%;
+}
+
+.navbar {
+    margin: 0 30px;
+    padding: 10px;
+    background-color: var(--background-gray);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+
+    .navbar-logo {
+        margin-left: 5px;
+
+        img {
+            border-radius: 10px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-self: center;
+
+        a {
+            text-decoration: none;
+            color: var(--color-blue);
+            margin-left: 15px;
+            display: inline-block;
+            position: relative;
+            font-size: 1.2rem;
+        }
+
+        a:nth-child(1) {
+            margin-left: 0 !important;
+        }
+
+        a:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 3px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--color-blue);
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+
+        a:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+    }
+
+    .fullscreen {
+        display: flex;
+        align-self: center;
+        button {
+            border: none;
+            background: none;
+        }
+    }
+}
+
+.border {
+    margin-top: 20px;
 }
