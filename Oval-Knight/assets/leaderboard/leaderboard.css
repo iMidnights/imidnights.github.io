@@ -3,7 +3,8 @@ body {
   font-family: 'Lexend Deca', sans-serif;
   background-image: url("https://oval-knight.com/images/background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .main h2 {
@@ -152,13 +153,6 @@ div[role="progressbars"]::after {
 
 div[role="progressbars"]::before {
   content: "Level";
-  color: #9b9285;
-  font-weight: 600;
-  white-space: pre-wrap;
-}
-
-.kills::before {
-  content: "Kills" !important;
   color: #9b9285;
   font-weight: 600;
   white-space: pre-wrap;

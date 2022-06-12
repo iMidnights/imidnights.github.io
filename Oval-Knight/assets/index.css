@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+html, body {
+  background-image: url("https://oval-knight.com/images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+iframe {
+  border: none;
+  border: 2px solid black;
+}
+
+#unity-container.unity-desktop {
+  width: 100%;
+  height: 100%;
+}
+
+#unity-canvas {
+  background: #231F20;
+  width: 100%;
+  height: 100%;
+}
+
+#unityContainer {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=index.css.map */
