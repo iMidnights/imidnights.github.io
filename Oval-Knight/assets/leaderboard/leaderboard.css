@@ -124,7 +124,7 @@ body {
 .navbar {
   margin: 0 30px;
   padding: 10px;
-  background-color: var(--background-secondary);
+  background-color: var(--background-gray);
   display: -webkit-box;
   display: -ms-flexbox;
   border-radius: 0 0 10px 10px;
