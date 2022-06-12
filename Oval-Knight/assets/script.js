@@ -17,6 +17,7 @@ function LoadData() {
 
         var name = object['name'];
         var kills = object['e'];
+        var lvl = object['lvl'];
 
         inner += `<div class="panel-content" id="item10">
         <div class="item-card d-flex">
@@ -24,7 +25,7 @@ function LoadData() {
             <h1>${i + 1}</h1>
           </div>
             <p style="padding-right: 0; width: 60%;">${name}</p>
-            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:40; --level: 10"></div>
+            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:0; --level: ${lvl}"></div>
         </div>
       </div>`
       }
@@ -57,7 +58,7 @@ function LoadEKills() {
             <h1>${i + 1}</h1>
           </div>
             <p style="padding-right: 0; width: 60%;">${name}</p>
-            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:40; --level: 10"></div>
+            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:0; --level: ${kills}"></div>
         </div>
       </div>`
       }
