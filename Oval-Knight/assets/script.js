@@ -25,7 +25,7 @@ function LoadData() {
             <h1>${i + 1}</h1>
           </div>
             <p style="padding-right: 0; width: 60%;">${name}</p>
-            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:0; --level: ${lvl}"></div>
+            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:0; --level: ${lvl};"></div>
         </div>
       </div>`
       }
@@ -58,7 +58,7 @@ function LoadEKills() {
             <h1>${i + 1}</h1>
           </div>
             <p style="padding-right: 0; width: 60%;">${name}</p>
-            <div role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:0; --level: ${kills}"></div>
+            <div class="kills" role="progressbars" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--value:0; --level: ${kills};"></div>
         </div>
       </div>`
       }

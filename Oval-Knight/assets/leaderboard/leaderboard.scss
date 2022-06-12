@@ -129,3 +129,10 @@ div[role="progressbars"]::before {
     font-weight: 600;
     white-space: pre-wrap;
 }
+
+.kills::before {
+    content: "Kills" !important;
+    color: #9b9285;
+    font-weight: 600;
+    white-space: pre-wrap;
+}
