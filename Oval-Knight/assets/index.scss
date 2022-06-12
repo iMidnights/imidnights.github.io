@@ -34,7 +34,7 @@ iframe {
 .navbar {
     margin: 0 auto;
     width: 1255px;
-    
+
     padding: 10px;
     background-color: var(--background-gray);
     display: -webkit-box;
@@ -100,6 +100,16 @@ iframe {
             border: none;
             background: none;
         }
+    }
+}
+
+.help {
+    width: 1275px;
+    background-color: var(--background-gray);
+
+    h2 {
+        margin-top: 0;
+        padding-top: 15px;
     }
 }
 

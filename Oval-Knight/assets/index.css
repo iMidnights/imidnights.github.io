@@ -118,6 +118,16 @@ iframe {
   background: none;
 }
 
+.help {
+  width: 1275px;
+  background-color: var(--background-gray);
+}
+
+.help h2 {
+  margin-top: 0;
+  padding-top: 15px;
+}
+
 .border {
   margin-top: 20px;
 }
