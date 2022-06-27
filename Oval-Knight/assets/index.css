@@ -1,6 +1,6 @@
 :root {
   --color-red: #ed161f;
-  --color-blue: #516cff;
+  --color-blue: #2967e3;
   --color-primary: #00bcd4;
   --color-secondary: #fafafa;
   --color-tertiary: #fafafa;
@@ -35,7 +35,7 @@ iframe {
 
 .navbar {
   margin: 0 auto;
-  width: 1255px;
+  width: 1215px;
   padding: 10px;
   background-color: var(--background-gray);
   display: -webkit-box;
@@ -119,13 +119,22 @@ iframe {
 }
 
 .help {
-  width: 1275px;
+  width: 1235px;
   background-color: var(--background-gray);
+  border-radius: 10px 10px 0 0;
 }
 
-.help h2 {
+.help .title {
+  border-bottom: 4px solid var(--background-gray);
+}
+
+.help .title h2 {
   margin-top: 0;
   padding-top: 15px;
+}
+
+.help .content {
+  padding-bottom: 10px;
 }
 
 .border {
