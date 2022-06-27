@@ -122,6 +122,8 @@ iframe {
   width: 1235px;
   background-color: var(--background-gray);
   border-radius: 10px 10px 0 0;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
 .help .title {
