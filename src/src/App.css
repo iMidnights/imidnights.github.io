@@ -1,0 +1,78 @@
+.red {
+    background-color: #ff0000; /* red */
+    color: #ffffff; /* white */
+    
+  }
+  
+  .orange {
+    background-color: #ff8000; /* orange */
+    color: #000000; /* black */
+    
+  }
+  
+  .yellow {
+    background-color: #ffff00; /* yellow */
+    color: #000000; /* black */
+    
+  }
+  
+  .green {
+    background-color: #008000; /* green */
+    color: #ffffff; /* white */
+    
+  }
+  
+  .blue {
+    background-color: #0000ff; /* blue */
+    color: #ffffff; /* white */
+    
+  }
+  
+  .indigo {
+    background-color: #4b0082; /* indigo */
+    color: #ffffff; /* white */
+    
+  }
+  
+  .violet {
+    background-color: #ee82ee; /* violet */
+    color: #000000; /* black */
+    
+  }
+  
+  .pink {
+    background-color: #ff69b4; /* pink */
+    color: #000000; /* black */
+    
+  }
+  
+  .purple {
+    background-color: #800080; /* purple */
+    color: #ffffff; /* white */
+    
+  }
+  
+  .brown {
+    background-color: #a52a2a; /* brown */
+    color: #ffffff; /* white */
+    
+  }
+  
+  .gray {
+    background-color: #808080; /* gray */
+    color: #ffffff; /* white */
+    
+  }
+  
+  .black {
+    background-color: #000000; /* black */
+    color: #ffffff; /* white */
+    
+  }
+  
+  .white {
+    background-color: #ffffff; /* white */
+    color: #000000; /* black */
+    
+  }
+  

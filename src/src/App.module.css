@@ -1,0 +1,38 @@
+.title {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.logo {
+    height: 6em;
+    will-change: filter;
+    transition: filter 300ms;
+    animation: pulse 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 0.5em #646cffaa);
+    }
+    50% {
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 1.5em #646cffaa);
+    }
+    100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 0.5em #646cffaa);
+    }
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #64dbffaa);
+  animation: none;
+}
+  
+
+.typer {
+    background-color: #ff0000;
+    font-size: 2rem;
+}
