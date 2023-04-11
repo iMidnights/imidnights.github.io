@@ -66,10 +66,12 @@ function App() {
         </p>
         <select
           onChange={handleFontChange}
-            
+          defaultValue={localStorage.getItem("font") || "Hanken Grotesk"}
         >
           {fonts.map((font) => (
-            <option value={font}>{font}</option>
+            <option key={font} value={font}>
+              {font}
+            </option>
           ))}
         </select>
     </div>
