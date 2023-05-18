@@ -16,13 +16,13 @@ function App() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        '<span class="red">test</span>', 
-        '<span class="orange">asd</span>',
+        '<span class="red">Full-Stack</span>', 
+        '<span class="orange">Web Developer</span>',
         '<span class="yellow">asdfasd</span>',
-        '<span class="green">xvczw</span>',
-        '<span class="blue">wdcsxc</span>',
-        '<span class="indigo">wefqw</span>',
-        '<span class="purple">zxbf</span>',
+        '<span class="green">NodeJS</span>',
+        '<span class="blue">React</span>',
+        // '<span class="indigo">wefqw</span>',
+        '<span class="purple">Assistants Center</span>',
       ],
       typeSpeed: 50,
       smartBackspace: true, // Default value
